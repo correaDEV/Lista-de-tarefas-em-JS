@@ -1,0 +1,138 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-do {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ff6b6b;
+}
+
+.header select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.divInsert {
+  display: flex;
+  margin-top: 10px;
+}
+
+.divInsert input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.divInsert button {
+  background: #4CAF50;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.divLi {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.divLi input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.divLi span {
+  flex: 1;
+}
+
+.divLi .date {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.editing {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.editing input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.editing button {
+  background: #4CAF50;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.editing button:last-child {
+  background: #ff6b6b;
+}
