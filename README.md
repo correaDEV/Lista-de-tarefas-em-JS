@@ -1,3 +1,6 @@
+![image](https://github.com/correaDEV/Lista-de-tarefas-em-JS/assets/156840280/a4278f59-6a75-4038-abba-39faa7736791)
+
+
 # To-Do List
 
 Uma aplicação simples de lista de tarefas (To-Do) que permite adicionar, editar, remover e marcar tarefas como concluídas. A aplicação também possui funcionalidades de busca, filtragem por status (todas, concluídas, pendentes) e marcação de prioridade.
@@ -49,3 +52,5 @@ to-do-list/
 ├── style/
 │   └── style.css
 └── README.md
+
+
