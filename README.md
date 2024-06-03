@@ -42,8 +42,6 @@ Certifique-se de ter um navegador moderno instalado (Google Chrome, Firefox, Edg
 
 3. Abra o arquivo `index.html` no seu navegador.
 
-### Estrutura do Projeto
-
 ```plaintext
 to-do-list/
 ├── index.html
@@ -52,5 +50,4 @@ to-do-list/
 ├── style/
 │   └── style.css
 └── README.md
-
 
